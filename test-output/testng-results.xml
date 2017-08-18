@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="115038" started-at="2017-08-18T10:24:08Z" finished-at="2017-08-18T10:26:03Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="115038" started-at="2017-08-18T10:24:08Z" finished-at="2017-08-18T10:26:03Z">
+      <class name="create_Inspection.VesselInspectionTest">
+        <test-method status="PASS" signature="initialioseBrowser()[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="initialioseBrowser" is-config="true" duration-ms="21193" started-at="2017-08-18T15:53:47Z" finished-at="2017-08-18T15:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialioseBrowser -->
+        <test-method status="PASS" signature="beforeSu()[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="beforeSu" is-config="true" duration-ms="62" started-at="2017-08-18T15:54:08Z" depends-on-methods="common_Function.WebDriverPass.initialioseBrowser" finished-at="2017-08-18T15:54:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSu -->
+        <test-method status="PASS" signature="VesselInspectionURL()[pri:9, instance:create_Inspection.VesselInspectionTest@2262b621]" name="VesselInspectionURL" duration-ms="7014" started-at="2017-08-18T15:54:08Z" finished-at="2017-08-18T15:54:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VesselInspectionURL -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="afterMethod" is-config="true" duration-ms="240" started-at="2017-08-18T15:54:15Z" finished-at="2017-08-18T15:54:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=VesselInspectionURL status=SUCCESS method=VesselInspectionTest.VesselInspectionURL()[pri:9, instance:create_Inspection.VesselInspectionTest@2262b621] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="SearchSchedule()[pri:11, instance:create_Inspection.VesselInspectionTest@2262b621]" name="SearchSchedule" duration-ms="23663" started-at="2017-08-18T15:54:15Z" finished-at="2017-08-18T15:54:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchSchedule -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="afterMethod" is-config="true" duration-ms="29" started-at="2017-08-18T15:54:39Z" finished-at="2017-08-18T15:54:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=SearchSchedule status=SUCCESS method=VesselInspectionTest.SearchSchedule()[pri:11, instance:create_Inspection.VesselInspectionTest@2262b621] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="AddJobs()[pri:12, instance:create_Inspection.VesselInspectionTest@2262b621]" name="AddJobs" duration-ms="84035" started-at="2017-08-18T15:54:39Z" finished-at="2017-08-18T15:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddJobs -->
+        <test-method status="PASS" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="afterMethod" is-config="true" duration-ms="45" started-at="2017-08-18T15:56:03Z" finished-at="2017-08-18T15:56:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=AddJobs status=SUCCESS method=VesselInspectionTest.AddJobs()[pri:12, instance:create_Inspection.VesselInspectionTest@2262b621] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterSu()[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="afterSu" is-config="true" duration-ms="44" started-at="2017-08-18T15:56:03Z" finished-at="2017-08-18T15:56:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSu -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:create_Inspection.VesselInspectionTest@2262b621]" name="closeBrowser" is-config="true" duration-ms="1581" started-at="2017-08-18T15:56:03Z" depends-on-methods="create_Inspection.VesselInspectionTest.afterSu" finished-at="2017-08-18T15:56:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- create_Inspection.VesselInspectionTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
